@@ -1,0 +1,39 @@
+.helper {
+  margin-left: 15px;
+  position: relative;
+  width: 420px;
+  height: 460px;
+}
+.tips {
+  background: #fff;
+  box-shadow: 0 7px 8.9px rgba(0, 0, 0, 0.27),
+    0 23.5px 29.9px rgba(0, 0, 0, 0.161), 0 105px 134px rgba(0, 0, 0, 0.109);
+  border-radius: 10px;
+  position: fixed;
+  right: 60px;
+  width: 420px;
+  height: 460px;
+}
+
+.tips h6 {
+  padding: 30px 40px 20px 40px;
+  color: #9f9fa3;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .helper {
+    width: 300px;
+    height: 460px;
+  }
+  .tips {
+    right: 30px;
+    width: 300px;
+    height: 660px;
+  }
+}
+@media (max-width: 768px) {
+  .helper {
+    display: none;
+  }
+}

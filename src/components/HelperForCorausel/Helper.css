@@ -1,0 +1,22 @@
+.helper-container {
+  margin-top: 40px;
+  box-shadow: 0 7px 8.9px rgba(0, 0, 0, 0.27),
+    0 23.5px 29.9px rgba(0, 0, 0, 0.161), 0 105px 134px rgba(0, 0, 0, 0.109);
+  border-radius: 10px;
+  /* grid-column-start: 4;
+  grid-column-end: 6; */
+  flex: 0.9;
+  margin-left: 50px;
+  background: #fff;
+  height: 610px;
+}
+.helper-container h5 {
+  padding: 60px 40px 20px 40px;
+  color: #9f9fa3;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .helper-container {
+    display: none;
+  }
+}

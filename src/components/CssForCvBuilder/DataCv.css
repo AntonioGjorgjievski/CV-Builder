@@ -1,0 +1,86 @@
+.grey {
+  color: grey;
+}
+.achiemenetsData {
+  font-size: 1.4rem;
+}
+.aleksandra {
+  object-fit: cover;
+  height: 110px;
+  width: 110px !important;
+}
+.data-education-list {
+  list-style: none;
+  padding-left: 0;
+}
+.data-contact {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.line-data-ul-list {
+  list-style: none;
+  padding: 0;
+}
+.line-data-ul-list li {
+  margin-bottom: 5px;
+  padding-left: 1em;
+  text-indent: -0.6em;
+  font-size: 15px;
+}
+
+.line-data-ul-list li::before {
+  content: "- ";
+  vertical-align: top;
+}
+.deleteExperienceDataS {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 38%;
+  left: -20px;
+}
+.deleteContactData {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+.deleteDataSkill:focus {
+  border: none;
+  outline: none;
+}
+.deleteDataSkill {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 5px;
+  bottom: -5px;
+}
+.title-education {
+  font-size: 1.3rem;
+}
+.margin {
+  margin-left: 34px;
+}
+.data-skills input {
+  max-width: 150px;
+}
+.dv-star-rating-empty-star div {
+  border: 2px solid black;
+}
+.hoverBtn:hover,
+.dv-star-rating-star .hover:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+.dv-star-rating-full-star div {
+  border: 2px solid black;
+  background: black;
+}
+@media (max-width: 1024px) {
+  .dv-star-rating-star {
+    width: 24px;
+  }
+}

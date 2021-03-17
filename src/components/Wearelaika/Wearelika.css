@@ -1,0 +1,27 @@
+.linkedin-container {
+  box-shadow: 0 7px 8.9px rgba(0, 0, 0, 0.27),
+    0 23.5px 29.9px rgba(0, 0, 0, 0.161), 0 105px 134px rgba(0, 0, 0, 0.109);
+  border-radius: 10px;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  flex: 1.2;
+  margin-top: 40px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.linkedin-container img {
+  width: 101%;
+}
+.nextBtn,
+.backBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+}
+.nextBtn {
+  right: 0;
+}

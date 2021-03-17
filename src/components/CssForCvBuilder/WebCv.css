@@ -1,0 +1,241 @@
+.cv-container {
+  padding: 0 30px 0 30px;
+  box-shadow: 0 7px 8.9px rgba(0, 0, 0, 0.27),
+    0 23.5px 29.9px rgba(0, 0, 0, 0.161), 0 105px 134px rgba(0, 0, 0, 0.109);
+  border-radius: 10px;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  background: white;
+  position: relative;
+  padding-top: 8%;
+  margin-right: 15px;
+  margin-bottom: 100px;
+}
+
+.cv-container img {
+  width: 100%;
+}
+.cv-header {
+  border-bottom: 3px solid #2ebcb4;
+}
+.elon {
+  object-fit: cover;
+  height: 110px;
+  width: 110px !important;
+  border: 3px solid #2ebcb4;
+}
+.elon-contact {
+  list-style: none;
+  padding-left: 0;
+}
+.elon-contact li p {
+  margin-bottom: 8px;
+}
+.elon-contact li span {
+  margin-left: 12px;
+}
+.line-height {
+  line-height: 1.3rem;
+}
+.sz-19 {
+  margin-bottom: 8px;
+  font-size: 19px;
+  font-weight: 600;
+}
+p {
+  margin-bottom: 7px;
+}
+.sz-16 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.sz-14 {
+  font-size: 14px;
+}
+.blue {
+  color: #2ebcb4;
+}
+.squere-ul-list {
+  list-style: none;
+  padding: 0;
+}
+.squere-ul-list li {
+  margin-bottom: 5px;
+  padding-left: 1em;
+  text-indent: -1.1em;
+  font-size: 15px;
+}
+
+.squere-ul-list li::before {
+  content: "■ ";
+  color: #2ebcb4;
+  vertical-align: top;
+}
+.dark-squere {
+  margin-top: 10px;
+  width: 30px;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.blue-square {
+  margin-top: 40px;
+  width: 30px;
+  height: 45px;
+  background: #2ebcb4;
+}
+.skil {
+  background: #2ebcb4;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+}
+.skil p {
+  margin-bottom: 0;
+}
+.editInputs {
+  border: none;
+  resize: none;
+}
+.del-btn-contact {
+  margin-top: 10px;
+  position: absolute;
+  top: -5px;
+}
+.mnth {
+  width: 22px;
+}
+.year {
+  width: 40px;
+}
+.input-skil {
+  border: none;
+  background: #2ebcb4;
+}
+.tasks {
+  width: 90%;
+}
+.addIcon {
+  background: none;
+  border: none;
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+.addIcon:focus,
+.deliteSkill:focus,
+.deliteContact:focus,
+.deleteExperience:focus,
+.addAchievement:focus,
+.deleteAchievement:focus,
+.deleteLanguage:focus {
+  border: none;
+  outline: none;
+}
+.addIcon i {
+  font-size: 20px;
+}
+.deliteSkill {
+  background: none;
+  border: none;
+  position: absolute;
+  right: -5px;
+  bottom: -12px;
+}
+.deliteContact {
+  background: none;
+  border: none;
+  position: absolute;
+  left: 10px;
+  bottom: -12px;
+}
+.deleteExperience {
+  background: none;
+  border: none;
+  position: absolute;
+  left: -28px;
+  top: 17px;
+}
+.deleteTask {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+}
+.addTask {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+}
+.addAchievement {
+  position: absolute;
+  right: -20px;
+  top: -4px;
+  background: none;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.deleteAchievement {
+  background: none;
+  border: none;
+  position: absolute;
+  right: -2px;
+  bottom: -6px;
+}
+.deliteLnguage {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0px;
+  top: -15px;
+}
+.language-level {
+  border: none;
+  font-size: 14px;
+  width: 100%;
+  font-style: italic;
+  color: grey;
+}
+.language-span span {
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.language-span span:hover {
+  color: #6630d8;
+}
+.language-span span:not(:last-child) {
+  margin-right: 12px;
+}
+.downloadBtn {
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background: #6630d8;
+  font-weight: 800;
+  font-size: 14px;
+  width: 190px;
+  padding: 15px;
+}
+.customTooltip .__react_component_tooltip.type-dark {
+  text-align: left;
+  font-size: 17px;
+  background-color: #f5f5f5;
+  color: black;
+  width: 250px;
+  border: 1px solid lightgrey;
+}
+@media (max-width: 1024px) {
+  .cv-container {
+    width: 690px;
+  }
+}
+@media (max-width: 768px) {
+  .cv-container {
+    position: relative;
+  }
+}

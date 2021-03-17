@@ -1,0 +1,76 @@
+.main-design-wrapper {
+  position: relative;
+  margin-top: 170px;
+  border: 3px solid black;
+}
+.design-info {
+  color: white;
+  background: black;
+  height: 350px;
+  position: absolute;
+  left: -3px;
+  top: -180px;
+  margin-bottom: 50px;
+}
+.about-design {
+  margin-top: 220px;
+}
+.designer-name {
+  background: black;
+  color: white;
+  font-size: 3rem;
+  letter-spacing: 12px;
+  margin-bottom: 10px;
+}
+.design {
+  margin-bottom: 240px;
+}
+.designer-desc {
+  background: black;
+  color: hsla(0, 0%, 100%, 0.6);
+  letter-spacing: 14px;
+  margin-bottom: 20px;
+}
+.design-list {
+  list-style: none;
+  padding-left: 0;
+}
+.margin-botom {
+  margin-bottom: 50px;
+}
+.designContactDelete {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 30px;
+  bottom: -12px;
+}
+.about {
+  position: absolute;
+  left: 3px;
+  bottom: -40px;
+}
+.about-designer-width {
+  width: 94%;
+  margin-left: 10px;
+}
+.deleteExperienceDesign {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 38%;
+  right: -34.5px;
+}
+@media (max-width: 768px) {
+  .design-info {
+    left: 0px;
+  }
+  .designer-name {
+    font-size: 2rem;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+  }
+  .designer-desc {
+    letter-spacing: 10px;
+  }
+}

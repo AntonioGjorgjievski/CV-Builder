@@ -1,0 +1,60 @@
+.linkedin-container {
+  box-shadow: 0 7px 8.9px rgba(0, 0, 0, 0.27),
+    0 23.5px 29.9px rgba(0, 0, 0, 0.161), 0 105px 134px rgba(0, 0, 0, 0.109);
+  border-radius: 10px;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  flex: 1.2;
+  margin-top: 40px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+.linkedin-container img {
+  width: 100%;
+}
+.nextBtn,
+.backBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+}
+.nextBtn {
+  right: 0;
+}
+.linkein-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.up {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+}
+.down {
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+}
+.middle {
+  position: absolute;
+  top: 30%;
+  z-index: 11;
+  width: 100%;
+  height: 150px;
+}
+.mid {
+  position: absolute;
+  top: 35%;
+  z-index: 111;
+  width: 100%;
+  height: 220px;
+}

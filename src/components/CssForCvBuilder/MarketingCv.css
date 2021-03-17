@@ -1,0 +1,38 @@
+.marketing-contact {
+  background: #4a8c9c;
+  color: white;
+}
+.dark-square {
+  margin-top: 44px;
+  width: 28px;
+  height: 7px;
+  background: #4a8c9c;
+}
+
+.skil-dark-blue {
+  background: #4a8c9c;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 8px;
+}
+.skil-dark-blue p {
+  margin-bottom: 0;
+}
+.circle-ul-list {
+  vertical-align: top;
+  list-style-type: circle;
+  padding: 0;
+}
+.deleteExperienceMarketing {
+  border: none;
+  background: none;
+  position: absolute;
+  top: -7px;
+  left: -29px;
+}
+.dark-blue {
+  color: #4a8c9c;
+}
+.nesto:focus {
+  border-color: white;
+}
